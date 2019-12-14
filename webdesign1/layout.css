@@ -1,0 +1,128 @@
+body {
+	background-color: #DE7C29;
+	font-family : verdana, Arial, sans-serif;
+	font-size: small;
+	margin:0;
+	padding:0;
+}
+#container{
+	background: #F3F3C6;
+	width: 768px;
+	margin: auto;
+	border-right: 1px solid #000; 
+	border-left: 1px solid #000;
+	padding: 0;
+}
+#content{
+	background: #FAFACF;
+	margin: 0;
+	padding: 10px 38px 10px 20px;
+	width: 508px;
+	float : left;
+	border-right: 2px solid #E2E5B6;
+}
+#navigation{
+	margin: 0;
+	padding: 10px 10px 10px 10px;
+	float : right;
+	width : 180px;
+	height : 100%;
+	/*border: 1px #666 solid;
+	text -align: center*/
+}
+
+#navigation h2 {
+	color: #ff0000;
+}
+
+
+#footer{
+	clear: both;
+	padding: 10px 20px;
+	margin: 0;
+	color: #BBB;
+	font-size :85%;
+	font-weight: bold;
+	background-color: #333;
+	
+}
+
+li {
+	margin: 0 0 6px 0;
+	
+}
+
+p,table {
+	
+	margin: 5px, 0;
+}
+
+table {
+	/*font-size: 12px;*/
+	width: 458px;
+	margin: 5px 0 0 50px;
+	/*border: 1px solid #ccc;*/
+	border-spacing: 10px 5px;
+}
+th {
+	font-weight: bold;
+	border-bottom: 1px dashed #FF6A0F;
+}
+
+td{
+	vertical-align: top;
+}
+
+.yearcol {
+	width: 5%;
+	text-align: left;
+}
+
+.spacecol{
+	width: 5%;
+	border-bottom: none;
+}
+
+.qualcol{
+	width: 60%;
+	text-align: left;
+}
+	
+	
+
+h1 {
+	background: url(images/python2.png) no-repeat top left;
+	margin: 0;
+	padding: 30px 60px 55px 40px;
+	font-family: "Lucida Grande", "Lucida sana", "Trebuchet MS";
+	font-size: 250%;
+	font-weight: bold;
+	color: #fff;
+}
+
+h2 {
+	margin: 18px 0 3px 0;
+	padding: 16px 0 3px 8px;
+	background: url(images/G.jpg) no-repeat top left;
+	font-size: 115%;
+	font-weight: bold;
+	color: #2B2B6A;
+	border-bottom: 1px solid #DE7C29;
+}
+
+h3{
+	margin: 10px 0 5px 10px ;
+	font-size: 90%;
+	font-weight: bold;
+	color: #2B2B6A;
+}
+
+img{
+	float: right;
+	background: #fff;
+	margin: 65px 10px 0 15px;
+	padding: 5px;
+	border: 1px solid #D9E0E6;
+	border-bottom-color: #C8CDD2;
+	border-right-color: #C8CDD2;
+}
